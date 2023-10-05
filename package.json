@@ -1,0 +1,26 @@
+{
+  "name": "calculator_test",
+  "version": "1.0.0",
+  "description": "Exercicio de testes e refatoração de codigo usando uma calculadora.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuanBagioCompagnoni/Calculator_Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuanBagioCompagnoni/Calculator_Test/issues"
+  },
+  "homepage": "https://github.com/LuanBagioCompagnoni/Calculator_Test#readme",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "node": "^20.7.0"
+  }
+}
