@@ -51,23 +51,23 @@ function total() {
 }
 
 function totalizar (num1, num2, operador){
-  let resultado = 0
+  let res = 0
 switch (operador){
   case '+':
-    resultado = (num1* 1) + (num2* 1)
+    res = (num1* 1) + (num2* 1)
     break
   case '-':
-    resultado = num1 - num2
+    res = num1 - num2
     break
   case '*':
-    resultado = num1 * num2
+    res = num1 * num2
     break
   case '/':
-    resultado = num2 == 0 ? 0 : num1 / num2
+    res = num2 == 0 ? 0 : num1 / num2
      break
     default:
-      resultado = 0
+      res = 0
       break
 }
-return resultado
+return res
 }
